@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 
 .notion-app {
-	background-color: white;
+    background-color: white;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -11,6 +11,12 @@
 .notion-title,
 .notion-page-icon-inline {
     display: none !important;
+}
+
+.notion-page-content-inner > .notion-callout {
+    background-color: white;
+    padding: 60px 0;
+    border: 0;
 }
 
 .notion-page {
@@ -67,59 +73,40 @@
     padding: 2px 6px;
 }
 
-.experience {
-    width: 100%;
-    padding: 80px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.skills {
-    width: 100%;
-    padding: 80px 0;
-}
-
-.projects {
-    width: 100%;
-    padding: 80px 0;
-}
-
-.projects .notion-collection-header {
+.notion-collection-header {
     display: none;
 }
 
-.projects .notion-gallery-grid {
+.notion-gallery-grid {
     grid-template-columns: auto;
     border-top: 0;
 }
 
-.projects .notion-collection-card {
+.notion-collection-card {
     background-color: white;
     border-radius: 12px;
     box-shadow: none !important;
     border: 1px solid #eaeaea;
 }
 
-.projects .notion-collection-card-cover {
+.notion-collection-card-cover {
     height: 280px;
 }
 
-.projects .notion-collection-card-cover span {
+.notion-collection-card-cover span {
     width: 100% !important;
 }
 
-.projects .notion-collection-card-body {
+.notion-collection-card-body {
     padding: 12px;
 }
 
-.projects .notion-page-title-text {
+.notion-page-title-text {
     font-size: 1.2em;
     font-weight: 600;
 }
 
-.projects .notion-property-multi_select-item {
+.notion-property-multi_select-item {
     background-color: #efefef;
 }
 
