@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 
 .notion-app {
-    background-color: white;
+	background-color: white;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -87,6 +87,11 @@
     border-radius: 12px;
     box-shadow: none !important;
     border: 1px solid #eaeaea;
+}
+
+.notion-collection-card:hover {
+    background-color: white;
+    opacity: 0.8;
 }
 
 .notion-collection-card-cover {
