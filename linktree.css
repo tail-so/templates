@@ -41,6 +41,7 @@
 .notion-page-icon-hero {
     border-radius: 100%;
     overflow: hidden;
+    border: 6px solid white;
 }
 
 .notion-page-scroller {
@@ -56,9 +57,6 @@
 }
 
 .notion-page {
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
     border-radius: 24px;
     background-color: white;
 }
