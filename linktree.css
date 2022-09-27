@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+    --notion-max-width: 460px
+}
+
+.notion-app{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.notion-frame {
+    background-image:  
+        radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0, transparent 50%),  
+        radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0, transparent 50%),  
+        radial-gradient(at 0% 50%, hsla(355,85%,93%,1) 0, transparent 50%),  
+        radial-gradient(at 58% 46%, hsla(340,100%,76%,1) 0, transparent 50%),  
+        radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0, transparent 50%),  
+        radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0, transparent 50%),  
+        radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0, transparent 50%);  
+    color: #2c3e50;
+}
+
+.notion-title,
+.notion-header {
+    display: none;
+}
+
+.notion-callout {
+    border-radius: 22px;
+}
+
+.notion-callout-text a {
+    border: 0;
+    opacity: 1;
+}
+
+.notion-page-cover-wrapper {
+    max-width: var(--notion-max-width);
+}
+
+.notion-page-icon-hero {
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.notion-page-scroller {
+    padding: 120px 12px;
+}
+
+.notion-page-cover-wrapper {
+    display: none;
+}
+
+.notion-page-cover {
+    height: 100px;
+}
+
+.notion-page {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-radius: 24px;
+    background-color: white;
+}
+
+.notion-full-page {
+    padding-bottom: 34px;
+}
