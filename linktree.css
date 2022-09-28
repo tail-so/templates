@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 :root {
-    --notion-max-width: 460px
+    --notion-max-width: 460px;
 }
 
 .notion-app{
     font-family: 'Space Grotesk', sans-serif;
 }
 
-.notion-frame {
+.notion-app {
+    color: #2c3e50;
     background-image:  
         radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0, transparent 50%),  
         radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0, transparent 50%),  
@@ -17,8 +18,8 @@
         radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0, transparent 50%),  
         radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0, transparent 50%),  
         radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0, transparent 50%);  
-    color: #2c3e50;
 }
+
 
 .notion-title,
 .notion-header {
@@ -61,7 +62,8 @@
 }
 
 .notion-page-scroller {
-    padding: 120px 12px;
+    display: block;
+    padding: 100px 12px;
 }
 
 .notion-page-cover-wrapper {
@@ -73,6 +75,7 @@
 }
 
 .notion-page {
+    /* position: absolute; */
     border-radius: 24px;
     background-color: white;
 }
