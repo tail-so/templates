@@ -27,11 +27,27 @@
 
 .notion-callout {
     border-radius: 22px;
+    position: relative;
+    transition: 0.3s ease-in-out !important;
+    -webkit-transition: 0.3s ease-in-out !important;
 }
 
-.notion-callout-text a {
-    border: 0;
+.notion-callout:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.notion-callout a {
+    padding: 0 0 2px 50px;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    border: none;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
     opacity: 1;
+
 }
 
 .notion-page-cover-wrapper {
@@ -63,4 +79,15 @@
 
 .notion-full-page {
     padding-bottom: 34px;
+}
+
+.notion-h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.notion-text {
+    width: 100%;
+    text-align: center;
 }
