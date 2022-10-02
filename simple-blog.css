@@ -95,6 +95,14 @@ notion-collection-card-body .notion-page-title-text {
     font-weight: 400 !important;
 }
 
+.notion-collection-card-body .notion-property-multi_select-item {
+    background-color: rgba(0, 0, 0, 0.06);
+    height: 24px;
+    padding: 0px 12px;
+    border-radius: 12px;
+    color: rgb(125, 125, 125);
+}
+
 .notion-collection-card-cover {
     border-radius: var(--border-radius) !important;
     border: 0;
