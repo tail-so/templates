@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 
 .notion-app {
-	background-color: white;
+    background-color: white;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -31,7 +31,7 @@
     font-weight: 600;
 }
 
-.hero {
+.section-hero {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -42,31 +42,31 @@
     gap: 30px;
 }
 
-.hero a {
+.section-hero a {
     border-bottom: 0 !important;
 }
 
-.hero .notion-h1 {
+.section-hero .notion-h1 {
     font-size: 2rem;
     font-weight: 400;
     text-align: left;
     align-self: flex-start;
 }
 
-.hero .notion-h2 {
+.section-hero .notion-h2 {
     font-size: 2rem;
     font-weight: 400;
     align-self: flex-start;
     max-width: 75%;
 }
 
-.hero .notion-blue {
+.section-hero .notion-blue {
     color: black;
     border-bottom: 2px solid #007bff;
     transition: all .2s ease-in-out;
 }
 
-.hero .notion-blue:hover {
+.section-hero .notion-blue:hover {
     background-color: #007bff;
     color: white;
     transition: all .2s ease-in-out;
@@ -115,21 +115,21 @@
     background-color: #efefef;
 }
 
-.footer {
+.section-footer {
     width: 100%;
     padding: 80px 0;
 }
 
-.footer .notion-column {
+.section-footer .notion-column {
     text-align: center;
 }
 
-.footer a {
+.section-footer a {
     border-bottom: 2px solid #007bff;
     transition: all .2s ease-in-out;
 }
 
-.footer .notion-blue:hover {
+.section-footer .notion-blue:hover {
     background-color: #007bff;
     color: white;
     transition: all .2s ease-in-out;
@@ -137,7 +137,7 @@
 }
 
 @media (max-width: 640px) {
-    .hero .notion-h2 {
+    .section-hero .notion-h2 {
         max-width: 100%;
         font-size: 1.8rem;
     }
