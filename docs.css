@@ -111,6 +111,10 @@
     position: relative;
 }
 
+.notion-page-content-inner > .notion-row > .notion-spacer {
+    width: 0;
+}
+
 /* Table */
 
 .notion-collection-column-title-icon {
@@ -172,7 +176,7 @@
 /* Left column */
 
 .notion-page-content-inner > .notion-row > .notion-column:first-child {
-
+    width: calc((100% - (1 * 24px)) * 0.25) !important;
 }
 
 .notion-page-content-inner > .notion-row > .notion-column:first-child {
@@ -253,6 +257,7 @@
     padding-top: 46px;
     padding-left: 10vw;
     padding-right: 10vw;
+    width: calc((100% - (1 * 24px)) * 0.75) !important;
 }
 
 .notion-page-content-inner > .notion-row > .notion-column:nth-child(3) > figure > div > img {
