@@ -1,21 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
-
 :root {
-    --notion-font: "Manrope", serif;
-    --fg-color: #fff;
-    --notion-page-header-display: none;
-    --notion-page-icon-display: none;
-    --notion-navbar-display: none;
-    --navbar-bg-color: rgba(0, 0, 0, .5);
-    --navbar-link-color: #fff;
-    --notion-database-card-corner-radius: 8px;
-    --notion-database-card-background: rgba(255, 255, 255, .01);
-    --notion-database-card-padding-x: 16px;
-    --notion-database-card-padding-y: 16px;
-    --notion-database-space-between-cards: 32px;
-    --notion-image-corner-radius: 0px;
     --main-gradient: linear-gradient(76.35deg, rgb(128, 26, 230) 15.89%, rgb(162, 26, 230) 89.75%);
-    --main-gradient-darker: linear-gradient(76.35deg, rgb(102, 10, 194) 15.89%, rgb(133, 10, 194) 89.75%);
     --notion-gray: rgb(210, 210, 210);
     
     /* Colors */
@@ -40,8 +24,13 @@
     --notion-max-width: 1240px;
 }
 
+.notion-page-icon,
 .notion-collection-header {
     display: none;
+}
+
+.notion-page > div > .notion-page-icon {
+    display: none !important;
 }
 
 .notion-hr {
@@ -74,8 +63,6 @@ body,
 
 .navbar {
     backdrop-filter: blur(8px);
-    background: linear-gradient(90deg,#151618 15px,transparent 1%) 50%, linear-gradient(#151618 15px, #3E4146 1%) 0%, hsla(0,0%,100%,.16) !important;
-    background-size: 16px 16px !important;
 }
 
 .notion-page-title-text,
@@ -159,10 +146,6 @@ body,
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.notion-collection-card .notion-page-icon-inline {
-    display: none;
-}
-
 .notion-collection-card-cover img {
     transition: opacity 3s ease-in-out, transform .5s ease-in-out;
 }
@@ -182,7 +165,6 @@ body,
 
 .tail-button,
 .navbar-action-button {
-    background: var(--main-gradient);
     padding-left: 24px;
     padding-right: 24px;
     font-weight: 600;
@@ -190,7 +172,7 @@ body,
 
 .tail-button:hover,
 .navbar-action-button:hover {
-    background: var(--main-gradient-darker);
+    opacity: .8;
 }
 
 .notion-callout {
@@ -268,6 +250,10 @@ body,
 }
 
 /* Testimonials */
+
+.section-testimonials .notion-row:last-child {
+    overflow: visible;
+}
 
 .section-testimonials .notion-callout .notion-page-icon-inline {
     display: none;
